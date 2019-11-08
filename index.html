@@ -1,9 +1,37 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>hi</h1>
+  <h1>BREAD Scouting</h1>
+    <div class = "basic-info">
+      <div class = "name">
+        <label for = "name"> Name: </label>
+        <input type = "text" name = "name" id = "name">
+      </div>
+      <!-- This class has a drop down option that can be updated to hold all the teams in the tournament-->
+      <div class = "team-number">
+        <p>Team Number: 
+        <select name = "Team Number">
+          <option value = "0"> </option>
+          <option value = "1">one</option>
+          <option value = "2">two</option>
+          <option value = "3">three</option>
+        </select>
+        </p>
+      </div>
+      <!-- alliance the team is in -->
+      <div class = "alliance">
+          <label for = "alliance">Alliance: </label>
+          <input type = "text" name = "alliance" id = "alliance">
+      </div>
+      <!-- match number in case the robot broke in the first mathc but is now fixed -->
+      <div class = "match-number">
+        <label for = "match-number"> Match #: </label>
+        <input type = "number" name - "match-number" id = "team-number">
+      </div>
+    </div>
 </body>
 </html>
